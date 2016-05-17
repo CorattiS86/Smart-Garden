@@ -62,7 +62,7 @@ because the erogator hose is placed close to the roots.
 Returning to what was said before, the choice of 3 plants is due to the fact that they have different values
 of CROP EFFICENT and PLANTING DENSITY
 
-" plant      |crop coeff. | plant density | exposure factor | irrigation efficency
+plant      |crop coeff. | plant density | exposure factor | irrigation efficency
 ---------------------------------------------------------------------------------
   cactus    |     0.2    |      1.0      |       1.0       |       0.9
   rosemary  |     0.5    |      1.0      |       1.0       |       0.9
