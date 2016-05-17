@@ -22,7 +22,8 @@ it is possible to see what influence irrigation for several kind of plant:
   - Exposure factor
   - Planted area
   - Irrigation efficency
-  - 
+ 
+
 CROP EFFICENT
 Crop coefficients, or species factors range from 0.1 to 0.9 and are
 divided into four categories:
@@ -49,7 +50,7 @@ higher factor, and a protected, shady location would use a lower factor.
 Returning to what was said before, the choice of 3 plants is due to the fact that they have different values
 of CROP EFFICENT and PLANTING DENSITY
 
-  PLANT     | CROP EFF. | PLANT DENSITY
+ PLANT     | CROP EFF. | PLANT DENSITY
 ------------------------------------
   fat       |           |
   rosemary  |           |
