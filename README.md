@@ -8,23 +8,28 @@ The garden consists of 3 plants, for our choice we select:
 
 The reason of such 3 plants is that they present 3 different characteristics from the point of view of watering.
 
-For watering we decided to use drip irrigation. 
-The biggest challenge in drip irrigation is accurately determining how much and when to water.
+For watering we decided to use flow irrigation. 
+The biggest challenge in flow irrigation is accurately determining how much and when to water.
 
 Based on a reasearch, that you can find in the follow link 
 
   "http://ucanr.edu/sites/scmg/files/30917.pdf" 
   
 it is possible to see what influence irrigation for several kind of plant:
-  - ET (Evapotranspiration) factor
+  - ET° (Evapotranspiration) factor
   - Crop coefficent
   - Density
   - Exposure factor
   - Planted area
   - Irrigation efficency
  
+EVAPOTRANSPIRATION
+Is the combined effect of soil water evaporation and plant water transpiration in the sorrounding environment, and values 
+are provided in tables based on months for a specific location (latitude, proximity to the sea, etc...), referred 
+to a reference crop ET° (grass).
+We have found the table for own plant considering a mediterranean, center-south of italy environment.  
 
-CROP EFFICENT
+CROP COEFFICIENT
 Crop coefficients, or species factors range from 0.1 to 0.9 and are
 divided into four categories:
   - Very low      < 0.1 (10% of ET°)
@@ -47,14 +52,18 @@ higher factor, and a protected, shady location would use a lower factor.
   - Average 1.0
   - High    1.1 - 1.4 
  
+IRRIGATION EFFICENCY
+Is related to the efficency of the kind of water erogator, in own implementation we assume 0.9 (90%) of efficency,
+because the erogator hose is placed close to the roots.
+ 
 Returning to what was said before, the choice of 3 plants is due to the fact that they have different values
 of CROP EFFICENT and PLANTING DENSITY
 
- PLANT     | CROP EFF. | PLANT DENSITY
-------------------------------------
-  fat       |           |
-  rosemary  |           |
-  tomato    |           |   
+ PLANT      |CROP COEFF. | PLANT DENSITY | EXPOSURE FACTOR | IRRIGATION EFFICENCY
+---------------------------------------------------------------------------------
+  cactus    |     0.2    |      1.0      |       1.0       |       0.9
+  rosemary  |     0.5    |      1.0      |       1.0       |       0.9
+  tomato    |     0.9    |      1.0      |       1.0       |       0.9
 
 from which it is established a formula that says the amount of water necessary for the plant for a month
 
