@@ -79,3 +79,11 @@ and use a conversion to compute daily amount of water.
 We use such informations to independently configure the 3 plants to obtain for each one an efficiently irrigation
 using the least amount of water possible. 
 
+Author
+-----------------
+Coratti Stefano
+
+
+coratti.s86@gmail.com
+
+https://www.linkedin.com/in/stefano-coratti-83005a85/
